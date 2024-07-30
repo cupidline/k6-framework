@@ -8,6 +8,7 @@ https://k6.io/docs/get-started/installation/
 
 ## How To Run:
 
+Please create `report` path in base directory in local to create report
 
 ``` 
  k6 run --vus 10 --iterations 20 -e configFile=DEV.json --out json=report.json main/scripts/test.js
